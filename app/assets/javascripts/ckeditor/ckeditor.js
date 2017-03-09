@@ -8989,7 +8989,7 @@
             if (f)f.show(); else {
                 g = ['<div tabIndex="-1" style="position: ', CKEDITOR.env.ie6Compat ? "absolute" : "fixed", "; z-index: ", g, "; top: 0px; left: 0px; ", !CKEDITOR.env.ie6Compat ? "background-color: " + e : "", '" class="cke_dialog_background_cover">'];
                 if (CKEDITOR.env.ie6Compat) {
-                    var k = CKEDITOR.env.isCustomDomain(), e = "<html><body style=\\'font-family: Robot, sans-serif; background-color:" + e + ";\\'></body></html>";
+                    var k = CKEDITOR.env.isCustomDomain(), e = "<html><body style=\\'background-color:" + e + ";\\'></body></html>";
                     g.push('<iframe hidefocus="true" frameborder="0" id="cke_dialog_background_iframe" src="javascript:');
                     g.push("void((function(){document.open();" +
                         (k ? "document.domain='" + document.domain + "';" : "") + "document.write( '" + e + "' );document.close();})())");
